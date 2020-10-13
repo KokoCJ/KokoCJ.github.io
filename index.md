@@ -4,9 +4,11 @@ You can use the [editor on GitHub](https://github.com/KokoCJ/newone.github.io/ed
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+[23rd July Pratice](23rd July Pratice.html) 
+
 ### Markdown
 <h1>hola Carlos</h1>
-<a href="23rd July Pratice.html">23rd July blog post</a>
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
@@ -26,7 +28,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-<a href="23rd July Pratice.html">23rd July blog post</a>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
