@@ -16,6 +16,27 @@
             text-decoration: none;
             color: lightskyblue;
         }
+                
+        body, article {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box{
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .column{
+            background-color: #190061;
+            height: 180px;
+            width: 250px;
+            margin: 5px;
+            padding: 10px;
+            font-size: 15px;
+            border: .5px double #3500D3;
+            float: left;;
+            }
 
         form {
             /* Center the form on the page */
@@ -88,36 +109,28 @@
         <p>
             Hi there! This is Koko's website, thanks for visiting.
             <br /><br />
-            Here are her personal blogs that she has not published to anywhere yet, those private contents becomes great
-            material to architect her first coding site, including (1)Map exhibition in British Library, etc.
-            (To be continue..) <br /><br />
-
-            
+            It does look quite simple, but Koko is trying to learn coding herself without a
+            company nor teacher, so please give her some time for this chellenge, if you have any advise or
+            you have the experience of learning coding and you want to share the learning strategy, please do not hesitage to leave a message to her!
+                        
         <div class="box">
 
-            <div class="content">
-                <img src="harley_ms_map session.jpg" alt="World Map" width="90px">
-                <p>123 <a target="_blank" href="https://craftanimations.com/">the kiss></a></p>
-                <a href="#blog">CAP Blog</a>
+            <div class="column">Maps and the 20th Century: Drawing the Line
+                <img src="map season harley ms.jpg" alt="Maps and the 20th Century: Drawing the Line">
+                <a href="Map BF 1019.html">Maps and the 20th Century: Drawing the Line</a>
             </div>
 
-            <div class="content">London King's college hostel
-                <img src="萬國.jpg" alt="CAP" width="90px">
+            <div class="column">London King's college hostel
+                <img src="萬國.jpg" alt="CAP">
                 <p>123</p>
             </div>
 
-            <div class="content content2">JiaYi Taiwan Screen in cinema
-                <a href="#"><img src="萬國.jpg" alt="CAP" width="90px"></a>
+            <div class="column">JiaYi Taiwan Screen in cinema
+                <a href="#"><img src="萬國.jpg" alt="CAP"></a>
                 <p>123</p>
 
-            <div class="clear"></div>
             </div>
         </div>
-
-            It does look very simple and might not look smart, but Koko is trying to learn coding herself without a
-            company nor teacher, so please give her some time for this chellenge, if you have any advise or
-            encouragement, or even you have the experience of learning coding and you want to share the learning
-            strategy, please do not hesitage to leave a message to her!
         </p>
 
         <form action="/index.html" method="post">
