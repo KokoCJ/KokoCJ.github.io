@@ -5,25 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0" , minimum-scale=0.5, maximum-scale=2.0,
         user-scalable=yes/>
-    <title> Maps Exhib Travele Notes</title>
+    <link rel="stylesheet" href="reset.css">
+
+    <title> Maps Exhib Travel Notes</title>
 
     <style>
-        .centre {
-            align-content: space-between;
-            color: lightgoldenrodyellow;
-            padding-left: 30px;
-            padding-right: 30px;
-            display: inline-block;
-            font-size: 15px;
+        h1{
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+            margin: 10px;
+            border: 2px #29648A double;
+        }
+
+        body{
             background-color: #00003E;
-            max-width: 900px;
-            margin: 0 auto;
+            color: #b8deeece;
+            padding: 30px;
+            width: 630px;
+        }
+
+        image{
+            display: block;
+            margin: auto;
+            left: 0;
+            right:0;
+        }
+
+        figcaption{
+            color: #2E9CCA;
+        }
+        p{
+            margin-bottom: 1em;
+            line-height: 1.5;
         }
 
         a{
             text-decoration: none;
-            color: lightskyblue;
+            color: darkcyan;
         }
+        body a:hover{
+            color: #4d29f1;
+        }
+
+        .box{
+            left: 0px;
+            right: 0px;
+            margin: auto;
+        }
+
+        .link{
+            border: 2px solid darkcyan;
+            width: 50px;
+            position: fixed;
+            top: 0;
+            right: 50px;
+
+
+        }
+
     </style>
 
 </head>
@@ -32,7 +72,7 @@
 
 <body>
 
-    <div>
+    <div class=box>
         <div class=centre>
             <!--字型 for whole page，*****出現錯誤，要再處理-->
             <h1>Maps and the 20th Century: Down to Earth</h1>
@@ -47,8 +87,7 @@
             </figure>
 
             <!--文字不超過視窗寬度-->
-
-            <br /> <br />
+            <br/>
             Google maps probably is the most worldwide famous and active digital map for modern people; however,
             there is a world map exist before the satellite invention.
 
@@ -81,7 +120,7 @@
                 <figcaption>The Navy League map, illustrating British naval history, 1901<br />
                     Credit: The British Library</figcaption>
             </figure>
-
+            <br/><br/>
             20th century was a critic changing time for human, we experienced 2 world wars, Spanish civil war,
             technology invention, landing to Moon, the movement vehicles became more customize and popular, all of these
             reasons transformed and developed the mapping skills and the approach forms.<br /><br />
@@ -117,10 +156,10 @@
 
             <figure>
                 <img href="https://www.pinterest.co.uk/pin/391250286352364799/visual-search/?x=10&y=10&w=544&h=348.59058823529415&cropSource=6"
-                    src="Disney Land map 1968.jpg" alt="DisneyLand Map 1968" width="500";>
+                    src="Disney Land map 1968.jpg" alt="DisneyLand Map 1968" width="500";><br/>
                 <figcation>Disneyland map, 1968</figcation>
             </figure>
-
+            <br/><br/>
             DisneyLand(1968) as a "Hyperreal" labelled by French cultural theorist Jean Baudrillard, he critics that
             DisneyLand (as you can see there is FantasyLand, TomorrowLand, AdvantureLand on the map) is a completely
             represent the essence of America, it also invented the distinction between illusion and reality,
@@ -140,7 +179,7 @@
                     Credit: Tate, UK
                 </figcaption>
             </figure>
-
+            <br/><br/>
 
             In the Mapping War section, The Melancholy of Departure(1916) by Giorgio de Chirico was shown there on a
             corner quietly, but basically express how sadness and depressed while the world war started to begin.
@@ -154,7 +193,7 @@
                     Credit: Library of Congress.
                 </figcaption>
             </figure>
-
+            <br/><br/>
 
             Some Utopia and mythical land idea generated from this era , one of the absolutely beautiful dreaming
             map: A
@@ -194,14 +233,12 @@
                     Credit: V&A, UK
                 </figcaption>
             </figure>
-
-
+            <br/><br/>
             Take a guess, where is it on the map?
             (see the picture above)
             <br><br>
-            The answer is here:
-            <br>
-            http://www.citylab.com/design/2015/10/a-map-of-middle-earth-annotated-by-jrr-tolkien/412105/
+            The answer is <a href=" http://www.citylab.com/design/2015/10/a-map-of-middle-earth-annotated-by-jrr-tolkien/412105/">HERE</a>
+
             <br><br>
             We can escape from our realistic life, draw our dream on the map, can we escape or vanish on a map? A
             New Reason for Movement(1959) give you another alternative way to do so.
@@ -219,7 +256,9 @@
     </div>
     </div>
 
+    <div class=link>
     <a href="index.html"> Back to Facade</a>
+    </div>
 </body>
 
 </html>
