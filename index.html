@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koko's Architecture</title>
+
+    <style>
+        .colour {
+            background-color: #25274D;
+            color: #b8deeece;
+        }
+
+        a {
+            text-decoration: none;
+            color: lightskyblue;
+        }
+
+        .box {
+            display: flex;
+            margin: auto;
+        }
+
+        .column {
+            background-color: #190061;
+            margin: 5px;
+            padding: 10px;
+            font-size: 15px;
+            border: .5px double #3500D3;
+        /*不用設定欄高欄寬，flex 預設等高、等寬~~*/
+        }
+
+        .column img{
+            width: 100%;
+        }
+
+        form {
+            /* Center the form on the page */
+            margin: 0 auto;
+            width: 500px;
+            /* Form outline */
+            padding: 1em;
+            border: 1px solid #CCC;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        form li+li {
+            margin-top: 1em;
+        }
+
+        label {
+            /* Uniform size & alignment */
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+        }
+
+        input,
+        textarea {
+            /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+            font: 1em serif;
+
+            /* Uniform text field size */
+            width: 300px;
+            box-sizing: border-box;
+
+            /* Match form field borders */
+            border: 1px solid #999;
+        }
+
+        input:focus,
+        textarea:focus {
+            /* Additional highlight for focused elements */
+            border-color: #000;
+        }
+
+        textarea {
+            /* Align multiline text fields with their labels */
+            vertical-align: top;
+
+            /* Provide space to type some text */
+            height: 5em;
+        }
+
+        .button {
+            /* Align buttons with the text fields */
+            padding-left: 90px;
+            /* same size as the label elements */
+        }
+
+        button {
+            /* This extra margin represent roughly the same space as the space between the labels and their text fields */
+            margin-left: .5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=colour>
+        <h1>The Façade</h1>
+        <p>
+            Hi there! This is Koko's website, thanks for visiting.
+            <br /><br />
+            Here are some articles present to you :D
+
+        <div class="box">
+            <div class="column">
+                <a href="Map BF 1019.html">Maps and the 20th Century: Drawing the Line<img
+                        src="map season harley ms.jpg" alt="Maps and the 20th Century: Drawing the Line"
+                        width="230"></a>
+                2017 British Library
+            </div>
+
+            <div class="column">
+                <a href="Map BF 1019.html">Maps and the 20th Century: Drawing the Line<img
+                        src="map season harley ms.jpg" alt="Maps and the 20th Century: Drawing the Line"
+                        width="230"></a>
+                2017 British Library
+            </div>
+
+            <div class="column"><a href="Map BF 1019.html">Maps and the 20th Century: Drawing the Line<img
+                        src="map season harley ms.jpg" alt="Maps and the 20th Century: Drawing the Line"
+                        width="230"></a>
+                2017 British Library
+            </div>
+            <div class="column"><a href="Map BF 1019.html">Maps and the 20th Century: Drawing the Line<img
+                        src="map season harley ms.jpg" alt="Maps and the 20th Century: Drawing the Line"
+                        width="230"></a>
+                2017 British Library
+            </div>
+            </div>
+        </div>
+        <p>
+            It does look quite simple, but Koko is trying to learn coding herself without a
+            company nor teacher, so please give her some time for this chellenge, if you have any advise or
+            you have the experience of learning coding and you want to share the learning strategy, please do not
+            hesitage to leave a message to her!
+            <br /><br />
+
+        </p>
+
+        <form action="/index.html" method="post">
+            <ul>
+                <li>
+                    <label for="name">Your name:</label>
+                    <input type="text" id="name" value="Type Your Name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail">
+                    <!--type 屬性是 input 裡頭最重要的-->
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" rows="3" cols="35">Write a message to Koko.</textarea>
+                </li>
+                <li>
+                    <button type="submit">(it's not working yet!)</button>
+                </li>
+            </ul>
+        </form>
+
+        <!-- <a href="Map BF 1019.html"> Blog: [ Mapa ]</a> -->
+        <marquee>¡Gracias Carlos!</marquee>
+    </div>
+</body>
+</div>
+
+</html>
