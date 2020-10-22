@@ -8,20 +8,29 @@
     <link rel="stylesheet" href="reset.css">
 
     <style>
-        h1{
+        h1 {
             text-align: center;
             font-size: 50px;
             margin-bottom: 10px;
-            padding: 10px;
+            padding: 1px;
+            border: 2px #29648A double;
         }
 
-        p{
-            line-height: 1.5;
-            padding: 10px;
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            border: 2px #29648A solid;
         }
+
+        body {
+            line-height: 1.5;
+            margin-bottom: 1em;
+        }
+
         .colour {
             background-color: #25274D;
             color: #b8deeece;
+            padding: 20px;
         }
 
         a {
@@ -40,13 +49,21 @@
             padding: 10px;
             font-size: 15px;
             border: .5px double #3500D3;
-        /*不用設定欄高欄寬，flex 預設等高、等寬~~*/
+            /*不用設定欄高欄寬，flex 預設等高、等寬~~*/
         }
 
-        .column img{
+        .column img {
             width: 100%;
         }
 
+        .cap img{
+            width: 15%;
+            opacity: 80%;
+            display: flex;
+            margin: auto;
+        }
+
+        /*Message form*/
         form {
             /* Center the form on the page */
             margin: 0 auto;
@@ -113,11 +130,11 @@
 </head>
 
 <body>
-    <div class=colour>
+    <div class="colour">
         <h1>The Façade</h1>
         <p>
             Hi there! This is Koko's website, thanks for visiting.
-            <br /><br />
+            <br />
             Here are some articles composed by Koko, she wants to present to you. Feel free to wonder around.
 
         <div class="box">
@@ -133,17 +150,14 @@
                         width="230"></a>
                 2017 British Library
             </div>
-            </div>
-       
-        <p>
-            This website does look quite simple, but Koko is trying to learn coding herself without a
-            company nor teacher, so please give her some time for this chellenge, if you have any advise or
-            you have the experience of learning coding and you want to share the learning strategy, please do not
-            hesitage to leave a message to her!
-            <br /><br />
+        </div>
 
-        </p>
-    </div>
+
+        This website does look quite simple, but Koko is trying to learn coding herself without a
+        company nor teacher, so please give her some time for this chellenge, if you have any advise or
+        you have the experience of learning coding and you want to share the learning strategy, please do not
+        hesitage to leave a message to her!
+        <br /><br />
 
         <form action="/index.html" method="post">
             <ul>
@@ -166,10 +180,22 @@
             </ul>
         </form>
 
+        <br />
+       
+        <h2>Craft Animation Project</h2>
+
+        CAP is a non-profit organization curated by Koko, it aims to support independent animated shorts and animators worldwide, the events started from London, Bristol, UK to JiaYi, Taiwan, come and take a
+        look by Clinking the hand-drawing Logo!<br/><br/>
+
+        <div class="cap">
+            <a href="cap.html"><img src="CAP Logo.jpg" alt="Craft Animation Project"></a>
+        </div>
+
         <!-- <a href="Map BF 1019.html"> Blog: [ Mapa ]</a> -->
+        <br />
         <marquee>¡Gracias Carlos!</marquee>
+       </p>
     </div>
 </body>
-</div>
 
 </html>
