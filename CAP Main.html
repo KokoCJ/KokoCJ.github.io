@@ -19,11 +19,13 @@
         }
 
         .menu {
+            /* display: inline-block; */
             text-align: center;
             border-bottom: black solid 1.5px;
             display: flex;
             justify-content: space-around;
-
+            line-height: 1.8; /*Line-height 字元間距*/
+            /* (๑•̀ㅂ•́)و✧ */
         }
 
         .menu a {
@@ -32,9 +34,15 @@
             /* padding 數值之間無須逗號，否則無法作用 */
         }
 
-        video {
+        .video{
+            position: relative;
             display: flex;
-            margin: auto;
+            justify-content: space-around;
+
+        }
+
+        video {
+            height: 100%;
             padding: 20px;
         }
 
@@ -42,9 +50,12 @@
             font-size: 21px;
             padding: 5px 45px 5px 45px;
             line-height: 1.5;
+            width: 650px;
+            margin: auto;
+            text-align: center;
         }
 
-        .end p {
+        .footer p {
             font-size: 11px;
             text-align: center;
         }
@@ -65,7 +76,7 @@
         .brands a {
             text-decoration: none;
             color: black;
-            font-size: 13.5px;            
+            font-size: 13.5px;
             vertical-align: bottom;
         }
     </style>
@@ -83,7 +94,7 @@
 
     </div>
 
-    <div class="menu">
+    <Nav class="menu">
 
         <a href="CAP Main.html">Main</a>
         <a href="CAP About.html">About</a>
@@ -91,11 +102,14 @@
         <a href="CAP Blog.html">Blog</a>
         <a href="CAP History Project.html">History Project</a>
 
+        <!-- <a href="CAP History Project.html" class="hello 這邊可放 class">History Project</a> -->
+
+    </nav>
+
+    <div class="video">
+        <video controls>
+            <source src="Craft Animation Project.mp4" type="video/mp4" /></video>
     </div>
-
-
-    <video controls>
-        <source src="Craft Animation Project.mp4" type="video/mp4" /></video>
 
     <p>The careful selection comprises alternative animations with abstract and collage image, hand-drawing, stop motion
         and much more. It brings audiences a time-travel back to memory, and search our identity.
@@ -109,21 +123,23 @@
         </div>
 
         <div class="brands">
-            <a href="http://www.noble-label.net/"><img src="Noble label.jpg" alt="Noble Music Label" width="30%"><br/>In Music Partnership with Nobel Label</a>
+            <a href="http://www.noble-label.net/"><img src="Noble label.jpg" alt="Noble Music Label"
+                    width="30%"><br />In Music Partnership with Nobel Label</a>
         </div>
 
         <div class="brands">
-            <a href="https://www.linkedin.com/in/karn-s-04b08561/"><img src="CAP Logo.jpg" width="100px"><br /><br />Brand
+            <a href="https://www.linkedin.com/in/karn-s-04b08561/"><img src="CAP Logo.jpg"
+                    width="100px"><br /><br />Brand
                 Designer Karn Sylvester.</a>
         </div>
     </div>
 
     </div>
 
-    <div class="end">
+    <div class="footer">
         <p>
             It is a non-profit project run by volunteers.<br />
-            © 2020 See You Soon! Craft Animation Project
+            &copy; 2020 See You Soon! Craft Animation Project
         </p>
     </div>
 
