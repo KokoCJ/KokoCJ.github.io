@@ -153,6 +153,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="video">
         <video controls>
+            
+            function handleOutboundLinkClicks(event) {
+  ga('send', 'event', {
+    hitType: 'event',
+    eventCategory: 'Click Trailer',
+    eventAction: 'click',
+    eventLabel: event.watch.trailer,
+    value: 30,
+  });
+}
+            
             <source src="Craft Animation Project.mp4" type="video/mp4" /></video>
     </div>
 
